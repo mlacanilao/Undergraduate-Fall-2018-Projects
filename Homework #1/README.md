@@ -2,6 +2,7 @@ CMSC 140: Introduction to Programming: Homework #1 - "Hello, World!"
 ====
 
 [![Language](https://img.shields.io/badge/language-C++-red.svg)](https://img.shields.io/badge/language-c++-red.svg)
+[![Language](https://img.shields.io/badge/C%2B%2B-11-red.svg)](https://img.shields.io/badge/C%2B%2B-11-red.svg)
 [![GPL License](https://img.shields.io/badge/license-GPL-blue.svg)](https://opensource.org/licenses/GPL-3.0/)
 
 Introduction
