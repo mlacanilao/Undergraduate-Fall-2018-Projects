@@ -18,8 +18,8 @@ Your telephone number
 
 Your college major
 
-Use only a single cout statement to display all of this information.
-Display a descriptive label for each piece of information.
+Use only a single cout statement to display all of this information.<br>
+Display a descriptive label for each piece of information.<br>
 Submit: source file HW2.cpp, and screenshot of output in Word Document
 
 License

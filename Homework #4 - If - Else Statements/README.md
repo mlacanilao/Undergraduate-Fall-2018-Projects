@@ -8,7 +8,7 @@ CMSC 140: Introduction to Programming: Homework #4 - If/Else Statements
 Instructions
 ------------
 
-Part 1: Write a program that asks the user for 5 numbers. Use only if statements to find the highest and lowest numbers. Print highest and lowest numbers.
+Part 1: Write a program that asks the user for 5 numbers. Use only if statements to find the highest and lowest numbers. Print highest and lowest numbers.<br>
 Part 2: Write a program that determines the price for a portrait sitting.
 
 License
