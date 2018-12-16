@@ -11,8 +11,8 @@ using namespace std;
 // Define constants.
 const string PROGRAMMER = "Michael Lacanilao"; // The programmer's name. 
 
-const int SUBTRACTION_CHOICE = 2, // Menu choice for subtraction.
-		  ADDITION_CHOICE = 1;	  // Menu choice for addition.
+const int	SUBTRACTION_CHOICE = 2,	// Menu choice for subtraction.
+			ADDITION_CHOICE = 1,	// Menu choice for addition.
 
 // Function prototypes.
 int getChoice();
