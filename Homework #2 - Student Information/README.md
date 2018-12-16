@@ -1,4 +1,4 @@
-CMSC 140: Introduction to Programming: Homework #1 - "Hello, World!"
+CMSC 140: Introduction to Programming: Homework #2 - Student Information
 ====
 
 [![Language](https://img.shields.io/badge/language-C++-red.svg)](https://img.shields.io/badge/language-c++-red.svg)
@@ -8,7 +8,19 @@ CMSC 140: Introduction to Programming: Homework #1 - "Hello, World!"
 Instructions
 ------------
 
-Develop a simple C++ program to display "Hello, World!" on the screen. Since it's a very simple program, it is often used to illustrate the syntax of a programming language. Be sure that your name appears as a comment at the beginning of your .cpp file.
+Write a program that displays the following pieces of information, each on a separate line:
+
+Your name
+
+Your address, with city, state, and ZIP code
+
+Your telephone number
+
+Your college major
+
+Use only a single cout statement to display all of this information.
+Display a descriptive label for each piece of information.
+Submit: source file HW2.cpp, and screenshot of output in Word Document
 
 License
 -------
