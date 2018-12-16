@@ -1,4 +1,4 @@
-CMSC 140: Introduction to Programming: Homework #5 - Looping and Using Data Files
+CMSC 140: Introduction to Programming: Homework #6 - Functions
 ====
 
 [![Language](https://img.shields.io/badge/language-C++-red.svg)](https://img.shields.io/badge/language-c++-red.svg)
@@ -8,8 +8,8 @@ CMSC 140: Introduction to Programming: Homework #5 - Looping and Using Data File
 Instructions
 ------------
 
-Part 1: Develop a program that asks the user for the number of starting asterisks. Prompt the user if they want an incremental pattern, decremental pattern, or same number of asterisks pattern. Print asterisk pattern.<br>
-Part 2: Develop a program that asks the user for their name, phone number, and address and outputs it to a file. Read and print the contents of the file. 
+Part 1: Develop a program that does addition and subtraction for two numbers.<br>
+Part 2: Develop a program for a soda vending machine
 
 License
 -------
