@@ -1,4 +1,4 @@
-CMSC 140: Introduction to Programming: Homework #4 - If/Else Statements
+CMSC 140: Introduction to Programming: Homework #5 - Looping and Using Data Files
 ====
 
 [![Language](https://img.shields.io/badge/language-C++-red.svg)](https://img.shields.io/badge/language-c++-red.svg)
@@ -8,8 +8,8 @@ CMSC 140: Introduction to Programming: Homework #4 - If/Else Statements
 Instructions
 ------------
 
-Part 1: Write a program that asks the user for 5 numbers. Use only if statements to find the highest and lowest numbers. Print highest and lowest numbers.
-Part 2: Write a program that determines the price for a portrait sitting.
+Part 1: Write a program that asks the user for the number of starting asterisks. Prompt the user if they want an incrememental pattern, decremental pattern, or same number of asterisks pattern. Print asterisk pattern.
+Part 2: Write a program that asks the user for their name, phone number, and address and outputs it to a file. Read and print the contents of the file. 
 
 License
 -------
