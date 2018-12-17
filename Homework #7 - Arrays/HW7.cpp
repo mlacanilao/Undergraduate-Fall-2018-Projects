@@ -17,12 +17,12 @@ const string PROGRAMMER = "Michael Lacanilao"; // The name of the programmer.
 int main()
 {
 	// Define array that will store the integers in the file.
-	const int ARRAY_SIZE = 50;	// The size of the array.
-	int numbers[ARRAY_SIZE];	// The array that will store the numbers from the file.
+	const int ARRAY_SIZE = 50; // The size of the array.
+	int numbers[ARRAY_SIZE];   // The array that will store the numbers from the file.
 
 	// Define variables.
-	int n,							// The user's number.
-		fileIntegerCount = 0;		// The total number of integers in the file. 
+	int n,                    // The user's number.
+	    fileIntegerCount = 0; // The total number of integers in the file. 
 
 	string fileName; // The name of the file.
 
