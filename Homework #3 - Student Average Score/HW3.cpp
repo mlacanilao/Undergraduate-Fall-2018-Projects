@@ -13,12 +13,12 @@ int main ()
 {
 	// Defines the variables.
 	string name;
-	int    participationScore,
-		   testScore,
-		   assignmentScore,
-		   examScore,
-		   practiceScore,
-		   totalScore;
+	int participationScore,
+	    testScore,
+	    assignmentScore,
+	    examScore,
+	    practiceScore,
+	    totalScore;
 	double averageScore;
 
 	// Prints the title.
@@ -57,7 +57,7 @@ int main ()
 	
 	// Prints the average score rounded to the nearest hundredth;
 	cout << setprecision(2) << fixed;
-    cout << "Your average score is " << averageScore << ".\n" << endl;
+	cout << "Your average score is " << averageScore << ".\n" << endl;
 
 	// Prints the programmer name.
 	cout << "Programmer: Michael Lacanilao" << endl;
