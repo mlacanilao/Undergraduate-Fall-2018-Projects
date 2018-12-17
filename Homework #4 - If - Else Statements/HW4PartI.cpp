@@ -11,12 +11,12 @@ int main()
 {
 	// Declare variables.
 	int first,   // The first number.
-		second,  // The second number.
-		third,   // The third number.
-		fourth,  // The fourth number.
-		fifth,   // The fifth number.
-		highest, // The highest number.
-		lowest;  // The lowest number.
+	    second,  // The second number.
+	    third,   // The third number.
+	    fourth,  // The fourth number.
+	    fifth,   // The fifth number.
+	    highest, // The highest number.
+	    lowest;  // The lowest number.
 
 	// Prompt user for five integers. Read and store in variables.
 	cout << "Please enter five different integer numbers: ";
