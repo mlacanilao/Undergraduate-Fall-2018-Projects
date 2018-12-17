@@ -3,7 +3,6 @@ Homework #4 Part 1
 Programmer: Michael Lacanilao
 */
 
-
 #include <iostream>
 using namespace std;
 
