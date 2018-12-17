@@ -13,8 +13,8 @@ int main()
 
 	// Define variables.
 	int numberOfRows,      // The number of rows.
-		numberOfAsterisks, // The number of asterisks in the first row.
-		asteriskPattern;   // The type of pattern the user chooses.
+	    numberOfAsterisks, // The number of asterisks in the first row.
+	    asteriskPattern;   // The type of pattern the user chooses.
 		
 	// Print title.
 	cout << "HOMEWORK 5 Part I\n";
