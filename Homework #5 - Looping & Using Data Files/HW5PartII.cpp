@@ -11,15 +11,15 @@ using namespace std;
 int main()
 {
 	// Define variables.
-	ifstream inputFile;  // The input file stream object.
+	ifstream inputFile; // The input file stream object.
 
 	ofstream outputFile; // The output file stream object.
 
 	string currentUserDataFileLine, // The string to hold the data file's lines.
-		   userStreetAddress,       // The user's street address.
-		   userCityStateZip,		// The user's city, state, and zip code address.
-		   userPhone,				// The user's phone number.
-		   userName;				// The user's name.
+		   userStreetAddress,   // The user's street address.
+		   userCityStateZip,    // The user's city, state, and zip code address.
+		   userPhone,           // The user's phone number.
+		   userName;            // The user's name.
 
 	// Print title.
 	cout << "HOMEWORK 5 PART II\n\n";
@@ -45,9 +45,9 @@ int main()
 
 	// Send user data to output file.
 	outputFile << "Name: " << userName << endl 
-			   << "Phone Number: " << userPhone << endl
-			   << "Address: " << userStreetAddress << endl
-			   << "\t " << userCityStateZip << endl;
+	           << "Phone Number: " << userPhone << endl
+	           << "Address: " << userStreetAddress << endl
+	           << "\t " << userCityStateZip << endl;
 
 	// Close output file.
 	outputFile.close();
