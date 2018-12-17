@@ -13,37 +13,39 @@ int main()
 {
 	// Constants.
 	const int SUBJECT_1 = 100,         // The base price for 1 subjects in the portrait.
-		      SUBJECT_2 = 130,         // The base price for 2 subjects in the portrait.
-		      SUBJECT_3 = 150,         // The base price for 3 subjects in the portrait.
-		      SUBJECT_4 = 160,         // The base price for 4 subjects in the portrait.
-		      SUBJECT_5_OR_MORE = 165; // The base price for 5 or more subjects in the portrait.
+	          SUBJECT_2 = 130,         // The base price for 2 subjects in the portrait.
+	          SUBJECT_3 = 150,         // The base price for 3 subjects in the portrait.
+	          SUBJECT_4 = 160,         // The base price for 4 subjects in the portrait.
+	          SUBJECT_5_OR_MORE = 165; // The base price for 5 or more subjects in the portrait.
 
 	const double FANCY_BACKGROUND_COST = .10, // The percent of extra cost on top of base price for a fancy background. 10%
-				 SATURDAY_COST = .30,         // The percent of extra cost on top of base price for a portrait sitting on Saturday. 30%
-				 SUNDAY_COST = .20;           // The percent of extra cost on top of base price for a portrait sitting on Sunday. 20%
+	             SATURDAY_COST = .30,         // The percent of extra cost on top of base price for a portrait sitting on Saturday. 30%
+	             SUNDAY_COST = .20;           // The percent of extra cost on top of base price for a portrait sitting on Sunday. 20%
 
 	// Declare variables.
-	int subjects;				  // The number of subjects in the portrait.
-	double totalPrice,			  // The total price.
-		   basePrice;			  // The base price.
+	int subjects; // The number of subjects in the portrait.
+	
+	double totalPrice, // The total price.
+	       basePrice;  // The base price.
+	
 	string sittingAppointmentDay, // The sitting appointment day.
-		   fancyBackground;       // The choice for a fancy background.
+	       fancyBackground;       // The choice for a fancy background.
 
 	// Print welcome message and fee schedule.
 	cout << "Welcome! Thank you for choosing our business. The fee schedule for a portrait sitting is as follows:\n\n"
-		<< "-----------------------------------------------------\n"
-		<< "|" << setw(25) << left << "Subjects in Portrait" << "|" << setw(25) << left << "Base Price" << "|\n"
-		<< "-----------------------------------------------------\n"
-		<< "|" << setw(25) << left << "1" << "|" << left << "$" << setw(24) << left << SUBJECT_1 << "|\n"
-		<< "-----------------------------------------------------\n"
-		<< "|" << setw(25) << left << "2" << "|" << left << "$" << setw(24) << left << SUBJECT_2 << "|\n"
-		<< "-----------------------------------------------------\n"
-		<< "|" << setw(25) << left << "3" << "|" << left << "$" << setw(24) << left << SUBJECT_3 << "|\n"
-		<< "-----------------------------------------------------\n"
-		<< "|" << setw(25) << left << "4" << "|" << left << "$" << setw(24) << left << SUBJECT_4 << "|\n"
-		<< "-----------------------------------------------------\n"
-		<< "|" << setw(25) << left << "5 or more" << "|" << left << "$" << setw(24) << left << SUBJECT_5_OR_MORE << "|\n"
-		<< "-----------------------------------------------------\n\n";
+	     << "-----------------------------------------------------\n"
+	     << "|" << setw(25) << left << "Subjects in Portrait" << "|" << setw(25) << left << "Base Price" << "|\n"
+	     << "-----------------------------------------------------\n"
+	     << "|" << setw(25) << left << "1" << "|" << left << "$" << setw(24) << left << SUBJECT_1 << "|\n"
+	     << "-----------------------------------------------------\n"
+	     << "|" << setw(25) << left << "2" << "|" << left << "$" << setw(24) << left << SUBJECT_2 << "|\n"
+	     << "-----------------------------------------------------\n"
+	     << "|" << setw(25) << left << "3" << "|" << left << "$" << setw(24) << left << SUBJECT_3 << "|\n"
+	     << "-----------------------------------------------------\n"
+	     << "|" << setw(25) << left << "4" << "|" << left << "$" << setw(24) << left << SUBJECT_4 << "|\n"
+	     << "-----------------------------------------------------\n"
+	     << "|" << setw(25) << left << "5 or more" << "|" << left << "$" << setw(24) << left << SUBJECT_5_OR_MORE << "|\n"
+	     << "-----------------------------------------------------\n\n";
 
 	// Prompt customer for subjects.
 	cout << "How many subjects will be in the portrait? ";
