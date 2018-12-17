@@ -24,13 +24,13 @@ double calculateAverageTestScore(int[], int);
 int main()
 {
 	// Define variables.
-	int totalNumberOfTestScores,	// The total number of test scores.
-		highestTestScore,			// The highest test score.
-		lowestTestScore;			// The lowest test score.
+	int totalNumberOfTestScores, // The total number of test scores.
+	    highestTestScore,        // The highest test score.
+	    lowestTestScore;         // The lowest test score.
 
 	// Define array that will store the test scores.
-	const int ARRAY_SIZE = 50;	// The size of the array.
-	int testScores[ARRAY_SIZE];	// The array that will store the test scores.
+	const int ARRAY_SIZE = 50;  // The size of the array.
+	int testScores[ARRAY_SIZE]; // The array that will store the test scores.
 
 	// Print title.
 	cout << "Homework #8\n\n";
@@ -56,7 +56,7 @@ int main()
 
 	// Print title for test scores in ascending order.
 	cout << "\n\nTest Scores in Ascending Order\n"
-		 << "******************************\n";
+	     << "******************************\n";
 
 	// Sort test scores in ascending order. Call selectionSortAscending function. Pass array stored with test scores and total number of test scores.
 	selectionSortAscending(testScores, totalNumberOfTestScores);
@@ -66,7 +66,7 @@ int main()
 
 	// Print title for test scores in descending order.
 	cout << "\n\nTest Scores in Descending Order\n"
-		 << "*******************************\n";
+	     << "*******************************\n";
 
 	// Sort test scores in descending order. Call selectionSortDescending function. Pass array stored with test scores and total number of test scores.
 	selectionSortDescending(testScores, totalNumberOfTestScores);
@@ -76,21 +76,21 @@ int main()
 
 	// Print title for highest test score.
 	cout << "\n\nHighest Test Score\n"
-		 << "******************\n";
+	     << "******************\n";
 
 	// Print highest test score.
 	cout << highestTestScore;
 
 	// Print title for lowest test score.
 	cout << "\n\nLowest Test Score\n"
-		 << "*****************\n";
+	     << "*****************\n";
 
 	// Print lowest test score.
 	cout << lowestTestScore;
 
 	// Print title for average test score.
 	cout << "\n\nAverage Test Score\n"
-		 << "******************\n";
+	     << "******************\n";
 
 	// Print average test score. Call calculateAverageTestScore function. Pass array stored with test scores and total number of test scores.
 	cout << fixed << showpoint << setprecision(2) << calculateAverageTestScore(testScores, totalNumberOfTestScores);
@@ -171,8 +171,8 @@ void displayTestScores(int testScores[], int totalNumberOfTestScores)
 void selectionSortAscending(int array[], int size)
 {
 	// Define variables.
-	int minIndex,	// The subscript of the element with the smallest value.
-		minValue;	// The value of the element with the smallest value.
+	int minIndex, // The subscript of the element with the smallest value.
+	    minValue; // The value of the element with the smallest value.
 
 	for (int start = 0; start < (size - 1); start++)
 	{
@@ -198,8 +198,8 @@ void selectionSortAscending(int array[], int size)
 void selectionSortDescending(int array[], int size)
 {
 	// Define variables.
-	int maxIndex,	// The subscript of the element with the largest value.
-		maxValue;	// The value of the element with the largest value.
+	int maxIndex, // The subscript of the element with the largest value.
+	    maxValue; // The value of the element with the largest value.
 
 	for (int start = 0; start < (size - 1); start++)
 	{
@@ -237,7 +237,7 @@ void swap(int &a, int &b)
 double calculateAverageTestScore(int testScores[], int totalNumberOfTestScores)
 {
 	// Define variables.
-	int sum = 0;	// The sum of all test scores.
+	int sum = 0; // The sum of all test scores.
 
 	// For loop to sum all test scores.
 	for (int i = 0; i < totalNumberOfTestScores; i++)
@@ -257,7 +257,7 @@ double calculateAverageTestScore(int testScores[], int totalNumberOfTestScores)
 int getHighestTestScore(int testScores[], int totalNumberOfTestScores)
 {
 	// Define variables.
-	int highestTestScore = testScores[0];	// Set the highest test score.
+	int highestTestScore = testScores[0]; // Set the highest test score.
 
 	// Linear search for the highest test score.
 	for (int i = 0;i < totalNumberOfTestScores;i++)
@@ -281,7 +281,7 @@ int getHighestTestScore(int testScores[], int totalNumberOfTestScores)
 int getLowestTestScore(int testScores[], int totalNumberOfTestScores)
 {
 	// Define variables.
-	int lowestTestScore = testScores[0];	// Set the lowest test score.
+	int lowestTestScore = testScores[0]; // Set the lowest test score.
 
 	// Linear search for the highest test score.
 	for (int i = 0; i < totalNumberOfTestScores; i++)
