@@ -11,16 +11,16 @@ using namespace std;
 
 // Define global constants.
 const double COKE_PRICE = 1.25, // The price of coke.
-PEPSI_PRICE = 1.00,				// The price of pepsi.
-WATER_PRICE = 2.00,				// The price of water.
-COFFEE_PRICE = 1.50,			// The price of coffee.
-TAX = 0.06;						// The sales tax.
+PEPSI_PRICE = 1.00,             // The price of pepsi.
+WATER_PRICE = 2.00,             // The price of water.
+COFFEE_PRICE = 1.50,            // The price of coffee.
+TAX = 0.06;                     // The sales tax.
 
 const int COKE_CHOICE = 1, // Menu choice for coke.
-PEPSI_CHOICE = 2,		   // Menu choice for pepsi.
-WATER_CHOICE = 3,		   // Menu choice for water.
-COFFEE_CHOICE = 4,		   // Menu choice for coffee.
-EXIT_CHOICE = 5;		   // Menu choice to quit.
+PEPSI_CHOICE = 2,          // Menu choice for pepsi.
+WATER_CHOICE = 3,          // Menu choice for water.
+COFFEE_CHOICE = 4,         // Menu choice for coffee.
+EXIT_CHOICE = 5;           // Menu choice to quit.
 
 // Function prototypes.
 void showMenu();
@@ -35,12 +35,12 @@ int main()
 	const string PROGRAMMER = "Michael Lacanilao"; // The programmer's name. 
 
 	// Define variables.
-	int item,	  // The user's menu choice.
-		quantity; // The number of items.
+	int item,     // The user's menu choice.
+	    quantity; // The number of items.
 
 	double paymentAmount, // The user's payment.
-	       totalAmount,	  // The total amount.
-		   change;		  // The total amount of change.
+	       totalAmount,   // The total amount.
+	       change;        // The total amount of change.
 
 	// Output settings.
 	cout << fixed << showpoint << setprecision(2);
@@ -68,8 +68,8 @@ int main()
 
 		// Print total amount, payment amount, and change.
 		cout << "\nThe total amount of the purchase, including tax = $" << totalAmount << endl
-			 << "The amount of payment = $" << paymentAmount << endl
-			 << "The amount of change returned = $" << change << "\n\n";
+		     << "The amount of payment = $" << paymentAmount << endl
+		     << "The amount of change returned = $" << change << "\n\n";
 	}
 	else
 	{
@@ -93,18 +93,18 @@ void showMenu()
 {
 	// Print soda vending machine menu.
 	cout << "-----------------------------------------------------\n"
-		<< "|" << setw(25) << left << "Soda Vending Machine" << "|" << setw(25) << left << "Price" << "|\n"
-		<< "-----------------------------------------------------\n"
-		<< "|" << setw(25) << left << "1. Coke" << "|" << left << "$" << setw(24) << left << COKE_PRICE << "|\n"
-		<< "-----------------------------------------------------\n"
-		<< "|" << setw(25) << left << "2. Pepsi" << "|" << left << "$" << setw(24) << left << PEPSI_PRICE << "|\n"
-		<< "-----------------------------------------------------\n"
-		<< "|" << setw(25) << left << "3. Water" << "|" << left << "$" << setw(24) << left << WATER_PRICE << "|\n"
-		<< "-----------------------------------------------------\n"
-		<< "|" << setw(25) << left << "4. Coffee" << "|" << left << "$" << setw(24) << left << COFFEE_PRICE << "|\n"
-		<< "-----------------------------------------------------\n"
-		<< "|" << setw(25) << left << "5. Exit Menu" << "|" << setw(25) << "" << "|\n"
-		<< "-----------------------------------------------------\n\n";
+	     << "|" << setw(25) << left << "Soda Vending Machine" << "|" << setw(25) << left << "Price" << "|\n"
+	     << "-----------------------------------------------------\n"
+	     << "|" << setw(25) << left << "1. Coke" << "|" << left << "$" << setw(24) << left << COKE_PRICE << "|\n"
+	     << "-----------------------------------------------------\n"
+	     << "|" << setw(25) << left << "2. Pepsi" << "|" << left << "$" << setw(24) << left << PEPSI_PRICE << "|\n"
+	     << "-----------------------------------------------------\n"
+	     << "|" << setw(25) << left << "3. Water" << "|" << left << "$" << setw(24) << left << WATER_PRICE << "|\n"
+	     << "-----------------------------------------------------\n"
+	     << "|" << setw(25) << left << "4. Coffee" << "|" << left << "$" << setw(24) << left << COFFEE_PRICE << "|\n"
+	     << "-----------------------------------------------------\n"
+	     << "|" << setw(25) << left << "5. Exit Menu" << "|" << setw(25) << "" << "|\n"
+	     << "-----------------------------------------------------\n\n";
 }
 
 //***************************************************************
@@ -156,7 +156,7 @@ double calculatePurchase(int item, int quantity)
 {
 	// Define variables.
 	double salePrice = 0, // The sale price without tax.
-		   totalAmount;   // The total amount with tax.
+	       totalAmount;   // The total amount with tax.
 
 	// Calculate sale price based on item choice.
 	switch (item)
