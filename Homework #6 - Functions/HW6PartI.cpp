@@ -11,8 +11,8 @@ using namespace std;
 // Define constants.
 const string PROGRAMMER = "Michael Lacanilao"; // The programmer's name. 
 
-const int	SUBTRACTION_CHOICE = 2,	// Menu choice for subtraction.
-			ADDITION_CHOICE = 1,	// Menu choice for addition.
+const int SUBTRACTION_CHOICE = 2, // Menu choice for subtraction.
+          ADDITION_CHOICE = 1,    // Menu choice for addition.
 
 // Function prototypes.
 int getChoice();
@@ -27,8 +27,8 @@ int main()
 	int userChoice; // The user's menu choice.
 
 	double result,  // The result.
-		   num1,    // The user's first number.
-		   num2;    // The user's second number.
+	       num1,    // The user's first number.
+	       num2;    // The user's second number.
 
 	// Print title.
 	cout << "WORKING WITH FUNCTIONS\n\n";
@@ -81,19 +81,19 @@ int main()
 int getChoice()
 {
 	// Define local variables.
-	char userCharChoice;	 // The user's choice as a character.
-	int userIntChoice;		 // The user's choice as a integer.
+	char userCharChoice; // The user's choice as a character.
+	int userIntChoice;   // The user's choice as a integer.
 	
 	// Prompt user for their choice.
 	cout << "Please enter 1 if you want to add two numbers\n"
-		 << "enter 2 if you want to subtract two numbers:\n";
+	     << "enter 2 if you want to subtract two numbers:\n";
 	cin >> userCharChoice;
 
 	// Input validation.
 	while (userCharChoice != '1' && userCharChoice != '2')
 	{
 		cout << "Error. Please re-enter 1 if you want to add two number\n"
-			 << "enter 2 if you want to subtract 2 numbers:\n";
+		     << "enter 2 if you want to subtract 2 numbers:\n";
 		cin >> userCharChoice;
 	}
 
