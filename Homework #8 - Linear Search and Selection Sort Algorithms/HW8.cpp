@@ -103,7 +103,7 @@ int main()
 }
 
 //*******************************************************************************************
-// The getNumberOfTestScores function prompts the user for the total number of test scores.	*
+// The getNumberOfTestScores function prompts the user for the total number of test scores. *
 //*******************************************************************************************
 
 int getNumberOfTestScores()
@@ -128,7 +128,7 @@ int getNumberOfTestScores()
 }
 
 //*******************************************************************
-// The getTestScores function prompts the user for the test scores.	*
+// The getTestScores function prompts the user for the test scores. *
 //*******************************************************************
 
 void getTestScores(int testScores[], int totalNumberOfTestScores)
@@ -151,7 +151,7 @@ void getTestScores(int testScores[], int totalNumberOfTestScores)
 }
 
 //***************************************************************************
-// The displayTestScores function displays the test scores in the array.	*
+// The displayTestScores function displays the test scores in the array.    *
 //***************************************************************************
 
 void displayTestScores(int testScores[], int totalNumberOfTestScores)
