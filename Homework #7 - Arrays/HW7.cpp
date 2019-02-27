@@ -73,7 +73,7 @@ int main()
 }
 
 //***********************************************************************************************
-// Definition of function displayGreaterThan.													*
+// Definition of function displayGreaterThan.							*						*
 // This function displays numbers in the file greater than the number specified by the user.	*
 //***********************************************************************************************
 
