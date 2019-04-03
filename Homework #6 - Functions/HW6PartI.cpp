@@ -74,8 +74,8 @@ int main()
 }
 
 //*******************************************************************************************************************
-// Definition of function getChoice.																				*
-// This function prompts the user if they want to add two numbers or subtract two numbers and returns the choice.	*	
+// Definition of function getChoice.										    *
+// This function prompts the user if they want to add two numbers or subtract two numbers and returns the choice.   *	
 //*******************************************************************************************************************
 
 int getChoice()
@@ -102,8 +102,8 @@ int getChoice()
 }
 
 //***************************************************
-// Definition of function getNumbers.				*
-// This function returns the user's two numbers.	*
+// Definition of function getNumbers.		    *
+// This function returns the user's two numbers.    *
 //***************************************************
 
 void getNumbers(double &num1, double &num2)
@@ -114,8 +114,8 @@ void getNumbers(double &num1, double &num2)
 }
 
 //***********************************************************
-// Definition of function addition.							*
-// This function returns the sum of the user's two numbers.	*
+// Definition of function addition.		            *
+// This function returns the sum of the user's two numbers. *
 //***********************************************************
 
 double addition(double num1, double num2)
@@ -125,8 +125,8 @@ double addition(double num1, double num2)
 }
 
 //*******************************************************************
-// Definition of function subtraction.								*
-// This function returns the difference of the user's two numbers.	*
+// Definition of function subtraction.				    *
+// This function returns the difference of the user's two numbers.  *
 //*******************************************************************
 
 double subtraction(double num1, double num2)
@@ -136,8 +136,8 @@ double subtraction(double num1, double num2)
 }
 
 //*******************************************
-// Definition of function displayResult.	*
-// This function displays the result. 		*
+// Definition of function displayResult.    *
+// This function displays the result.       *
 //*******************************************
 
 void displayResult(double result)
