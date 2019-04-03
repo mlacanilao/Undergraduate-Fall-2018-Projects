@@ -85,8 +85,8 @@ int main()
 }
 
 //***********************************************************
-// Definition of function showMenu.							*
-// This function print out the soda vending machine menu.	*	
+// Definition of function showMenu.			    *
+// This function print out the soda vending machine menu.   *	
 //***********************************************************
 
 void showMenu()
@@ -108,7 +108,7 @@ void showMenu()
 }
 
 //***************************************************************
-// Definition of function takePurchase.							*
+// Definition of function takePurchase.				*
 // This function prompts the user for the item and quantity.	*	
 //***************************************************************
 
@@ -148,7 +148,7 @@ void takePurchase(int &item, int &quantity)
 }
 
 //*******************************************************
-// Definition of function calculatePurchase.			*
+// Definition of function calculatePurchase.		*
 // This function calculates the total amount with tax.	*	
 //*******************************************************
 
@@ -196,8 +196,8 @@ double calculatePurchase(int item, int quantity)
 }
 
 //***************************************************
-// The definition of function takePayment. 			*
-// This functions gets the payment from the user.	*	
+// The definition of function takePayment. 	    *
+// This functions gets the payment from the user.   *	
 //***************************************************
 
 double takePayment(double totalAmount)
@@ -224,8 +224,8 @@ double takePayment(double totalAmount)
 }
 
 //***************************************************
-// The definition of the function calculateChange.	*
-// This function calculates the change.				*	
+// The definition of the function calculateChange.  *
+// This function calculates the change.		    *	
 //***************************************************
 
 double calculateChange(double totalAmount, double paymentAmount)
