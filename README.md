@@ -8,7 +8,7 @@ Undergraduate Fall 2018 CMSC 140: Introduction to Programming C++ Homework and P
 Introduction
 ------------
 
-This is a compilation of all C++ homework assignments and projects completed during my undergraduate Fall 2018 semester at Rockville Montgomery College, MD for CMSC 140: Introduction to Programming class.
+This is a compilation of all C++ homework assignments completed during my undergraduate Fall 2018 semester at Rockville Montgomery College, MD for CMSC 140: Introduction to Programming class.
 
 License
 -------
