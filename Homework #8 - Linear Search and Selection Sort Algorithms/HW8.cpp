@@ -251,7 +251,7 @@ double calculateAverageTestScore(int testScores[], int totalNumberOfTestScores)
 }
 
 //*******************************************************************
-// The getHighestTestScore function finds the highest test score.	*
+// The getHighestTestScore function finds the highest test score.   *
 //*******************************************************************
 
 int getHighestTestScore(int testScores[], int totalNumberOfTestScores)
