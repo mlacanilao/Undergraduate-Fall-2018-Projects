@@ -49,7 +49,7 @@ int main()
 
 	// Print title for test scores in original order.
 	cout << "\nTest Scores in Original Order\n"
-		 << "*****************************\n";
+	     << "*****************************\n";
 
 	// Print test scores in original order. Call displayTestScores function. Pass array stored with test scores and total number of test scores.
 	displayTestScores(testScores, totalNumberOfTestScores);
